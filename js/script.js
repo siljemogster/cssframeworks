@@ -1,7 +1,7 @@
 function applyInitialTheme() {
     const userPreference = localStorage.getItem("theme");
 
-    const.systemPreferenceisDark = window.matchMedia(
+    const systemPreferenceisDark = window.matchMedia(
         "(prefers-color-scheme: dakr)"
     ).matches; 
 
